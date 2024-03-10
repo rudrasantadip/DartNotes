@@ -21,4 +21,8 @@ void main() {
   // Even if we insert repeated values those values are ommitted automatically
   Set<int> repeated_numbers = {1, 2, 3, 4, 4, 5, 5, 6};
   print(repeated_numbers);
+
+  /**
+   * ADVANDCED CONCEPTS ARE DISCUSSED IN LATER SECTIONS
+   */
 }

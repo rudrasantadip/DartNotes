@@ -26,4 +26,8 @@ void main() {
   vegetables
       .addAll(["Lettuce", "Brinjal"]); // Adds a list of elements into the list
   print(vegetables);
+
+  /**
+   * ADVANDCED CONCEPTS ARE DISCUSSED IN LATER SECTIONS
+   */
 }

@@ -20,6 +20,7 @@ void main() {
   */
 
   print(name2 + "is a water type pokemon");
+  print(name2.toUpperCase());
   //The String data type also comes with a few methods and properties, search them...
   /**
    * Examples
