@@ -10,7 +10,7 @@ and cannot be changed later...
 NUMBERS -> num, int, double
 TEXT -> string
 BOOLEAN -> bool
-LISTS -> List
+LISTS -> List, Set
 MAPS -> Map
  */
 
@@ -50,6 +50,25 @@ void main() {
   print(flag);
 
 /*
-*
+* Rest are discussed in seperate files
 */
+
+/**
+ * IMPORTANT --------------------------------------------------------------------------------------------------------
+ * 
+ * Although dart is a statically typed language
+ * it allows us to store data in a variable dynamically
+ * using keywords 
+ * 'dynamic'
+ * and 'var'
+ * 
+ * using the 'dynamic' we can store any data on a variable and can even change 
+ * it during run time...
+ * 
+ * the var keyword lets us assign, any data during the first initialization
+ * but the moment the data is being assigned , the variable is given the data-type of
+ * the assigned value
+ * 
+ * TO SEE THE IMPLEMENTATION VISIT var_A_N_D_dynamic.dart
+ */
 }
